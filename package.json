@@ -4,6 +4,7 @@
   "description": "",
   "main": "build/main.js",
   "scripts": {
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
     "test": "jest",
     "start": "node build/main.js",
     "build": "tsc"
@@ -15,6 +16,7 @@
     "@types/jest": "^24.0.18",
     "jest": "^24.9.0",
     "ts-jest": "^24.1.0",
+    "tslint": "^5.20.0",
     "typescript": "^3.6.3"
   },
   "dependencies": {
